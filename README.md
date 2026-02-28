@@ -7,7 +7,10 @@ A hangman game that can be played in the terminal, made in Lua!
 
 
 # Install dependencies
-ascii-image-converter (https://github.com/TheZoraiz/ascii-image-converter)
+- ascii-image-converter (https://github.com/TheZoraiz/ascii-image-converter)
+- lua
+- luarocks
+- dkjson
 
 ascii-image-converter has some extra steps to installing it for some package managers (see the ascii-image-converter repository)
 It's not required to run the game. If you don't install it, the game still works, but you won't see the hangman ascii art.
