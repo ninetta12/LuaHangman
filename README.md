@@ -13,14 +13,14 @@ ascii-image-converter has some extra steps to installing it for some package man
 It's not required to run the game. If you don't install it, the game still works, but you won't see the hangman ascii art.
 
 ----
-DNF (for Fedora, etc)
+**DNF** (for Fedora, etc)
 ```
 sudo dnf install lua luarocks && sudo luarocks install dkjson
 ```
 install ascii-image-converter here: https://github.com/TheZoraiz/ascii-image-converter
 
 ----
-APT (for Debian, Ubuntu, Mint, etc)
+**APT** (for Debian, Ubuntu, Mint, etc)
 ```
 sudo apt install lua luarocks && sudo luarocks install dkjson
 echo 'deb [trusted=yes] https://apt.fury.io/ascii-image-converter/ /' | sudo tee /etc/apt/sources.list.d/ascii-image-converter.list
@@ -28,7 +28,7 @@ sudo apt update
 sudo apt install -y ascii-image-converter
 ```
 ----
-BREW (for Linux, macOS, etc)
+**BREW** (for Linux, macOS, etc)
 ```
 brew install TheZoraiz/ascii-image-converter/ascii-image-converter lua luarocks && luarocks install dkjson
 ```
