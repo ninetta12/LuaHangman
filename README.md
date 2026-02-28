@@ -19,6 +19,10 @@ APT (for debian, ubuntu, mint, etc)
 ```
 sudo apt install lua luarocks && sudo luarocks install dkjson
 ```
+BREW (for macOS)
+```
+sudo brew install lua luarocks && sudo luarocks install dkjson
+```
 
 # Installation
 Do the following terminal commands in the correct order.
