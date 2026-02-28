@@ -23,7 +23,7 @@ sudo apt install lua luarocks && sudo luarocks install dkjson
 # Installation
 Do the following terminal commands in the correct order.
 
-Make a clone of this repository inside your home directory
+Make a clone of this repository.
 ```
 git clone https://github.com/ninetta12/LuaHangman
 ```
