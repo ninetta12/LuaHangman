@@ -1,10 +1,23 @@
 # LuaHangman
 A hangman game that can be played in the terminal, made in Lua!
 
-## Install Dependencies
+<p align="center">
+  <img src="https://i.imgur.com/8m0b3ZP.png">
+</p>
+
+
+# Install dependencies
+ascii-image-converter (https://github.com/TheZoraiz/ascii-image-converter)
+
+ascii-image-converter is not required to run the game. If you don't install it, the game still works, but you won't see the hangman ascii art.
+
 DNF (for fedora)
 ```
-sudo dnf install lua
+sudo dnf install lua luarocks && sudo luarocks install dkjson
+```
+APT (for debian, ubuntu, mint, etc)
+```
+sudo apt install lua luarocks && sudo luarocks install dkjson
 ```
 
 # Installation
@@ -21,17 +34,6 @@ cd LuaHangman
 
 Run the game
 ```
-bash LuaHangman.sh
+sh LuaHangman.sh
 ```
-
-You can move the LuaHangman.sh file into ~/bin .
-Then you can simply run the game by typing LuaHangman without needing to change directories.
-```
-mv LuaHangman.sh ~/bin/LuaHangman
-```
-Run the game using this command.
-```
-LuaHangman
-```
-
-# Usage
+# How to play
