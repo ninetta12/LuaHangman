@@ -37,3 +37,18 @@ Run the game
 sh LuaHangman.sh
 ```
 # How to play
+type the letter you want to try at the end of the command that launches the game. Like this!
+```
+sh LuaHangman.sh a
+```
+
+
+You can give up with -giveup . This resets the game, and you'll get a new word.
+```
+sh LuaHangman.sh -giveup
+```
+
+To see more things you can do, use -help .
+```
+sh LuaHangman.sh -help
+```
