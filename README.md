@@ -36,6 +36,11 @@ Run the game
 ```
 sh LuaHangman.sh
 ```
+-----
+Run the game without ascii-image-generator
+```
+lua LuaHangman.lua
+```
 # How to play
 type the letter you want to try at the end of the command that launches the game. Like this!
 ```
