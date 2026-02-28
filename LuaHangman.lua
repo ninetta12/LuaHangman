@@ -92,7 +92,7 @@ if letter == "--help" or letter == "-help" or letter == "--h" or letter == "-h" 
     print("flags")
     print("-h -help".."   prints out what you can do with LuaHangman")
     print("-g -giveup".."   resets the game. You'll start with a new word. This doesnt reset your wins.")
-    print("-p -playerdata".."   prints out your player data. (includes your wins)" )
+    print("-p -playerdata".."   prints out your player data. (includes your wins) (a bit buggy)" )
     return
 end
 
